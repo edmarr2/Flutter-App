@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
           textColor: Colors.white,
           onPressed: () {
             if(!(email == 'edmar_espinola@hotmail.com')
-                || !(password == '123123')) {
+                || !(password == 'abcdefg')) {
               return print('Erro ao fazer login');
             }
             Navigator.of(context).pushReplacementNamed('/home');
